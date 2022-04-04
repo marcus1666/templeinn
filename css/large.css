@@ -1,11 +1,15 @@
 @media only screen and (min-width: 1080px) {
   header img {
-    width: 50px;
+    width: 32px;
+
     padding: 0 60px;
   }
 
   #ham {
     display: none;
+  }
+  header {
+    padding: 20px 15px;
   }
 
   nav ul li {
@@ -40,5 +44,118 @@
 
     color: white;
     background-color: transparent;
+  }
+  div.hero {
+    height: 802px;
+  }
+
+  .transhero {
+    width: 643px;
+  }
+  .transhero h1 {
+    font-size: 50px;
+    padding-left: 85px;
+  }
+
+  .transhero h2 {
+    font-size: 26px;
+    padding-left: 85px;
+    margin: -45px 0 0 0;
+  }
+
+  .transhero p {
+    padding-left: 85px;
+  }
+
+  .weather-container {
+    height: 148px;
+
+    grid-template-columns: 1fr 1fr;
+  }
+  .todays-date h3 {
+    font-size: 62px;
+  }
+  .todays-date h4 {
+    font-size: 24px;
+    margin: -55px 0 0 0;
+  }
+  .weather-underline {
+    height: inherit;
+  }
+  .todays-temp h4 {
+    font-size: 45px;
+    margin: 0;
+  }
+  .todays-temp :nth-child(2) {
+    margin: -20px 0 0 0;
+    font-size: 15px;
+  }
+  .todays-temp :nth-child(3) {
+    margin: -5px 0 0 0;
+    font-size: 15px;
+  }
+
+  .weather-future {
+    padding: 0;
+  }
+
+  .next-day h4 {
+    font-size: 21px;
+  }
+  .next-day h5 {
+    font-size: 27px;
+    margin: -20px 0 -15px 0;
+  }
+  .next-day p {
+    font-size: 14px;
+    margin: -5px 0 0 0;
+  }
+
+  .selection-grid {
+    grid-template-columns: 2fr 1fr 2fr;
+  }
+
+  .selection-grid img {
+    display: block;
+  }
+
+  .temple-trans-banner {
+    left: 50%;
+    width: 400px;
+  }
+  .temple-trans-banner h3 {
+    font-size: 33px;
+  }
+
+  .temple-trans-banner p {
+    font-size: 17px;
+    line-height: 29px;
+    margin: -10px 0 0 0;
+  }
+  .view-temps {
+    width: 233px;
+    font-size: 22px;
+  }
+
+  .reserve-trans-banner {
+    height: 336px;
+    left: 0;
+    width: 600px;
+    height: 200px;
+    padding: 45px 65px 55px 65px;
+  }
+
+  .reserve-trans-banner h3 {
+    font-size: 33px;
+  }
+
+  .reserve-trans-banner p {
+    font-size: 17px;
+  }
+
+  .make-reservation {
+    width: 233px;
+    font-weight: 400;
+    font-size: 22px;
   }
 }

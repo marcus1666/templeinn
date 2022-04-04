@@ -1,2 +1,104 @@
 @media only screen and (min-width: 545px) {
+  .hero-container {
+    padding-top: 120px;
+  }
+
+  .transhero {
+    width: 545px;
+    height: 300px;
+    padding: 55px 0 0 0;
+    background: rgba(0, 61, 121, 0.9);
+    border-radius: 0px 292px 0px 0px;
+  }
+  .transhero h1 {
+    font-size: 45px;
+    padding-left: 35px;
+  }
+
+  .transhero h2 {
+    font-size: 25px;
+    padding-left: 35px;
+    margin: -45px 0 0 0;
+  }
+
+  .transhero p {
+    font-size: 14px;
+
+    padding-left: 35px;
+    width: 410px;
+    margin: 0;
+  }
+
+  .select-temple {
+    height: 151px;
+  }
+
+  .selection-grid {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 0;
+  }
+
+  #temple-list {
+    padding: 5px 25px;
+  }
+  .selection-info {
+    width: 250px;
+  }
+  .selection-info h3 {
+    margin: 10px 0 0 0;
+    font-size: 22px;
+  }
+
+  .selection-grid img {
+    width: 170px;
+    align-self: center;
+    margin-top: 0;
+    display: none;
+  }
+
+  .temple-trans-banner {
+    left: 10%;
+    width: 350px;
+    padding: 45px 65px;
+  }
+
+  .temple-trans-banner h3 {
+    font-size: 30px;
+  }
+
+  .temple-trans-banner p {
+    font-size: 15px;
+    line-height: 29px;
+    margin: -10px 0 0 0;
+  }
+  .view-temps {
+    margin-top: 40px;
+    width: 200px;
+    font-size: 19px;
+  }
+
+  .reserve-trans-banner {
+    height: 436px;
+    top: 100px;
+    left: 1%;
+    width: 420px;
+    height: 220px;
+    padding: 45px 15px 55px 15px;
+  }
+
+  .reserve-trans-banner h3 {
+    font-size: 30px;
+  }
+
+  .reserve-trans-banner p {
+    font-size: 15px;
+    margin: -10px 0 0 0;
+  }
+
+  .make-reservation {
+    width: 233px;
+    font-weight: 400;
+    font-size: 19px;
+  }
 }
