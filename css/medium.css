@@ -31,12 +31,12 @@
 
   .select-temple {
     height: 151px;
+    padding-top: 15px;
   }
 
   .selection-grid {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    padding: 0;
   }
 
   #temple-list {

@@ -201,15 +201,15 @@ a {
 }
 
 .todays-temp h4 {
+  margin-top: 41px;
   font-size: 35px;
-  margin: 20px 0 0 0;
 }
 .todays-temp :nth-child(2) {
-  margin: -20px 0 0 0;
+  margin: -40px 0 0 0;
   font-size: 13px;
 }
 .todays-temp :nth-child(3) {
-  margin: -5px 0 0 0;
+  margin: 5px 0 0 0;
   font-size: 13px;
 }
 
@@ -229,7 +229,7 @@ a {
 }
 .next-day h5 {
   font-size: 23px;
-  margin: -15px 0 -15px 0;
+  margin: -1px 0 -2px 0;
 }
 .next-day p {
   font-size: 12px;
@@ -250,7 +250,7 @@ a {
 }
 
 .selection h3 {
-  margin: 10px 0 0 0;
+  margin: 10px 0 10px 0;
   font-size: 27px;
 }
 
@@ -272,7 +272,7 @@ a {
 }
 
 .selection-info :nth-child(2) {
-  margin: -10px 0 0 0;
+  margin: 5px 0 0 0;
   font-size: 15px;
 }
 
@@ -297,13 +297,12 @@ a {
 }
 
 .temple-trans-banner {
-  height: 336px;
   background: rgba(0, 61, 121, 0.84);
   position: relative;
   top: 100px;
   left: 15%;
   width: 270px;
-  height: 250px;
+  height: 220px;
   padding: 45px 30px 30px 30px;
 }
 
@@ -315,7 +314,7 @@ a {
 .temple-trans-banner p {
   font-size: 14px;
   line-height: 24px;
-  margin: -5px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .view-temps {
@@ -348,7 +347,7 @@ a {
 }
 
 .reserve-trans-banner {
-  height: 300px;
+  height: 293px;
   background: rgba(0, 61, 121, 0.84);
   position: relative;
   margin: 0 auto;
@@ -367,7 +366,7 @@ a {
 .reserve-trans-banner p {
   font-size: 14px;
   line-height: 29px;
-  margin: 0;
+  margin: 10px 0 0 0;
 }
 
 .make-reservation {
