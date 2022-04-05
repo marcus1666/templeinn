@@ -114,8 +114,46 @@
   .footer-form label input {
     height: 25px;
   }
+  .footer-container {
+    padding: 60px 0;
+  }
+  .footer-form h3,
+  .footer-address-display h3 {
+    font-size: 27px;
+  }
+  .copyright {
+    font-size: 20px;
+  }
+  /* <!-- ------------------------------Temple Page------------------------ --> */
 
   .temples-container {
     width: 600px;
+  }
+
+  /* <!-- ------------------------------Reservation Page------------------------ --> */
+  .temple-reservation-form-container {
+    width: 90%;
+  }
+
+  .reservation-form {
+    padding-left: 50px;
+  }
+  .reservation-container h3 {
+    font-size: 30px;
+    margin-top: 0;
+  }
+  .reservation-form textarea,
+  .reservation-form select {
+    width: 300px;
+  }
+  .reservation-container {
+    padding-top: 118px;
+    width: 79%;
+    margin: 0 auto;
+  }
+  .reservation-form input,
+  .reservation-form textarea,
+  .reservation-form select {
+    width: 300px;
   }
 }

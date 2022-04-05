@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Inn - Make A Reservation</title>
+    <meta
+      name="description"
+      content="Temple Inn - Reservation Page- Learn more about our rooms in various locations around the temples"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <!-- fav -->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/images/fav/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/images/fav/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.png" alt="temple inn logo" />
+      <nav class="primary">
+        <button id="ham">&#9776;</button>
+        <ul id="menu" class="visuallyhidden">
+          <li><a href="/templeinn/index.html">Home</a></li>
+          <li><a href="/templeinn/temples.html">Temples</a></li>
+          <li><a href="#">Reservations</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="temple-main">
+      <div class="reservation-container">
+        <h1>Reservation</h1>
+
+        <div class="temple-reservation-form-container">
+          <h3>Reservation Form</h3>
+          <form class="reservation-form" action="">
+            <label>
+              First Name <input type="text" name="firstname" required
+            /></label>
+            <label> Last Name <input type="text" name="lastname" /></label>
+            <label> E-mail <input type="email" name="email" /></label>
+            <label> Phone Number <input type="tel" name="telephone" /></label>
+            <label> Home Town <input type="text" name="hometown" /></label>
+            <label>
+              Temple Location
+              <select id="form-temple-list" name="cars">
+                <option value="volvo">Select a Temple</option>
+                <option value="volvo">Aba</option>
+                <option value="saab">Accra</option>
+                <option value="fiat">Cape Town</option>
+                <option value="audi">Nairobi</option>
+              </select></label
+            >
+            <label> Date <input type="date" name="date" /></label>
+            <label>
+              Type of Room
+              <select id="form-temple-list" name="cars">
+                <option value="volvo">Select a Temple</option>
+                <option value="volvo">Aba</option>
+                <option value="saab">Accra</option>
+                <option value="fiat">Cape Town</option>
+                <option value="audi">Nairobi</option>
+              </select></label
+            >
+            <label>
+              Number Of Rooms <input type="number" value="1" name="roomnumbers"
+            /></label>
+
+            <label
+              >Reservation Comment
+              <textarea name="reservationcomment" cols="30" rows="5"></textarea>
+            </label>
+            <input
+              class="reservation-button"
+              type="submit"
+              value="Make Reservation"
+            />
+          </form>
+        </div>
+
+        <!-- ------------------------------Temple Selection ------------------------ -->
+
+        <!-- ------------------------------Footer------------------------ -->
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-form">
+          <h3>Contact Us</h3>
+          <form action="">
+            <label>
+              FULL-NAME <input type="text" name="fullname" required
+            /></label>
+            <label> E-MAIL <input type="email" name="email" required /></label>
+            <label>
+              YOUR MESSAGE
+              <textarea name="contact-message" cols="30" rows="5"></textarea>
+            </label>
+            <input
+              class="footer-form-button"
+              type="submit"
+              value="Send Message"
+            />
+          </form>
+        </div>
+        <div class="footer-address-display">
+          <h3>Temple Inn & Suites</h3>
+          <div class="footer-socials">
+            <a href="http://facebook.com" target="_blank"
+              ><img src="./images/fb-icon.png" alt="facebook"
+            /></a>
+            <a href="http://instagram.com" target="_blank"
+              ><img src="./images/insta-icon.png" alt="instagram"
+            /></a>
+          </div>
+          <div class="footer-address">
+            <img src="./images/location-icon.png" alt="location" />
+            <p>
+              Temple Inn & Suites Headquarters 355 Wisconsin Avenue Bethesda, MD
+              20814
+            </p>
+          </div>
+          <div class="footer-phone">
+            <img src="./images/phone-icon.png" alt="phone" />
+            <p>215-529-9999</p>
+          </div>
+        </div>
+        <p class="copyright">
+          <span id="copyright-year"> ©2020 </span> | Ojo-Osasere Marcus | WDD230
+        </p>
+      </div>
+    </footer>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>

@@ -181,4 +181,17 @@
     margin-bottom: 88px;
     grid-gap: 205px;
   }
+
+  /* <!-- ------------------------------Reservation Page------------------------ --> */
+  .temple-reservation-form-container {
+    width: 800px;
+  }
+  .reservation-container {
+    padding-top: 118px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .reservation-form {
+    padding-left: 100px;
+  }
 }
