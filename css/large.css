@@ -194,4 +194,21 @@
   .reservation-form {
     padding-left: 100px;
   }
+
+  /* <!-- ------------------------------Services Page------------------------ --> */
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+    width: 800px;
+  }
+  .services-container {
+    width: 1000px;
+  }
+
+  .contact-container {
+    width: 700px;
+  }
+
+  .edit {
+    margin-top: 0;
+  }
 }

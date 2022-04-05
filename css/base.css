@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Jaldi&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -723,4 +727,97 @@ footer {
 .reservation-button:hover {
   background-color: white;
   color: rgba(0, 61, 121, 0.84);
+}
+/* <!-- ------------------------------Services Page------------------------ --> */
+
+.services-container {
+  padding-top: 118px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.services-container h1 {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  grid-gap: 45px;
+}
+
+.free-amenities {
+  width: 90%;
+}
+
+.free-amenities h3,
+.special-amenities h3 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.free-amenities ul,
+.special-amenities ul {
+  margin-top: 10px;
+}
+
+.free-amenities ul li,
+.special-amenities ul li {
+  margin-top: 10px;
+}
+
+.special-amenities {
+  width: 90%;
+}
+
+.reservation-room img {
+  width: 100%;
+}
+.make-blue {
+  color: #003d79;
+}
+
+.reservation-room li,
+.reservation-room h3 {
+  color: #003d79;
+}
+
+.reservation-room ul {
+  margin-top: 5px;
+}
+.reservation-room h3 {
+  margin-bottom: 5px;
+}
+
+.reservation-room li {
+  margin-top: 5px;
+}
+
+.contact-container {
+  width: 90%;
+  padding: 55px 15px 75px 15px;
+  background: rgba(0, 61, 121, 0.9);
+  margin: 60px auto;
+  text-align: center;
+}
+.contact-container h2 {
+  font-size: 30px;
+}
+
+.contact-container a {
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 3px 28px;
+}
+
+.contact-container a:hover {
+  background-color: white;
+  color: #003d79;
+}
+
+.edit {
+  margin-top: -50px;
 }

@@ -156,4 +156,26 @@
   .reservation-form select {
     width: 300px;
   }
+
+  /* <!-- ------------------------------Services Page------------------------ --> */
+  .services-grid {
+    grid-template-columns: 1fr;
+    width: 500px;
+    margin: 0 auto;
+    grid-gap: 45px;
+  }
+  .services-container {
+    width: 500px;
+    padding-top: 118px;
+  }
+  .special-amenities {
+    width: 400px;
+  }
+  .free-amenities {
+    width: 300px;
+  }
+  .contact-container {
+    width: 450px;
+    padding: 55px 30px 75px 30px;
+  }
 }
