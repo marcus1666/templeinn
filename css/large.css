@@ -52,6 +52,9 @@
   .transhero {
     width: 643px;
   }
+  .hero-socials {
+    padding-left: 85px;
+  }
   .transhero h1 {
     font-size: 50px;
     padding-left: 85px;
@@ -112,14 +115,6 @@
     margin: 0;
   }
 
-  .selection-grid {
-    grid-template-columns: 2fr 1fr 2fr;
-  }
-
-  .selection-grid img {
-    display: block;
-  }
-
   .temple-trans-banner {
     left: 50%;
     width: 400px;
@@ -132,10 +127,6 @@
     font-size: 17px;
     line-height: 29px;
     margin: -10px 0 0 0;
-  }
-  .view-temps {
-    width: 233px;
-    font-size: 22px;
   }
 
   .reserve-trans-banner {
@@ -155,8 +146,6 @@
   }
 
   .make-reservation {
-    width: 233px;
-    font-weight: 400;
     font-size: 22px;
   }
 

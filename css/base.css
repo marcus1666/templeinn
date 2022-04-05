@@ -144,6 +144,19 @@ label {
   padding-left: 15px;
 }
 
+.hero-socials img {
+  width: 32px;
+}
+
+.hero-socials :nth-child(2) {
+  padding-left: 15px;
+}
+
+.hero-socials {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
 .transhero h2 {
   font-style: normal;
   font-size: 20px;
@@ -324,22 +337,8 @@ label {
 }
 
 .view-temps {
-  margin-top: 30px;
-  width: 133px;
-  border: 1px solid #ffffff;
-  box-sizing: border-box;
-  background-color: transparent;
-  color: white;
-  font-weight: 400;
-  font-size: 15px;
-  padding: 10px 0;
-}
-
-.view-temps:hover {
-  border: 2px dotted rgba(0, 61, 121, 0.84);
-  background-color: white;
-  color: rgba(0, 61, 121, 0.84);
-  cursor: pointer;
+  margin: 0;
+  text-align: center;
 }
 
 /* <!-- ------------------------------Make Reservation ------------------------ --> */
@@ -376,15 +375,17 @@ label {
 }
 
 .make-reservation {
-  margin-top: 40px;
+  display: block;
   width: 160px;
   border: 1px solid #ffffff;
-  box-sizing: border-box;
   background-color: transparent;
   color: white;
   font-weight: 400;
   font-size: 15px;
   padding: 10px 0;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 .make-reservation:hover {
