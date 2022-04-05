@@ -159,4 +159,11 @@
     font-weight: 400;
     font-size: 22px;
   }
+
+  /* <!-- ------------------------------Footer------------------------ --> */
+  .footer-container {
+    width: 1080px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
 }

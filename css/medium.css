@@ -101,4 +101,17 @@
     font-weight: 400;
     font-size: 19px;
   }
+
+  /* <!-- ------------------------------Footer------------------------ --> */
+  .footer-container {
+    width: 540px;
+    display: block;
+    margin: 0 auto;
+  }
+  .footer-address-display {
+    margin-top: 0px;
+  }
+  .footer-form label input {
+    height: 25px;
+  }
 }
