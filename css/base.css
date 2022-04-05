@@ -310,7 +310,7 @@ label {
 
 .temple-hero {
   height: 551px;
-  background: url(../images/temple.jpg);
+  background: url(../images/temple-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -349,6 +349,7 @@ label {
   background: url(../images/hero2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .reserve-trans-banner {
