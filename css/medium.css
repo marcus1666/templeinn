@@ -114,4 +114,8 @@
   .footer-form label input {
     height: 25px;
   }
+
+  .temples-container {
+    width: 600px;
+  }
 }

@@ -166,4 +166,19 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
   }
+
+  /* <!-- ------------------------------Temple Page------------------------ --> */
+
+  .temples-container h1 {
+    font-size: 60px;
+    margin-bottom: 88px;
+  }
+  .temples-container {
+    width: 1080px;
+  }
+  .temple-cards-grid {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 88px;
+    grid-gap: 205px;
+  }
 }

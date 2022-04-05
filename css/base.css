@@ -124,7 +124,8 @@ h5 {
 }
 
 p,
-a {
+a,
+li {
   font-family: "Jaldi", sans-serif;
   font-weight: 400;
   color: white;
@@ -485,4 +486,149 @@ footer {
   font-size: 20px;
   text-align: center;
   grid-column: 1/3;
+}
+
+/* <!-- ------------------------------Temple Page------------------------ --> */
+
+#temple-main {
+  background: linear-gradient(180deg, #003d79 0%, #ffffff 100%);
+}
+
+.temples-container {
+  padding-top: 118px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.temples-container h1 {
+  font-size: 40px;
+  margin-bottom: 58px;
+}
+
+.temple-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 88px;
+  grid-gap: 85px;
+}
+
+.temple-image {
+  background-image: url("../images/accra.jpg");
+  background-size: cover;
+  height: 350px;
+  position: relative;
+}
+
+.temple-name-overlay {
+  position: absolute;
+  background: rgba(0, 61, 121, 0.84);
+  right: 0;
+  width: 50%;
+  height: 25%;
+  padding-left: 45px;
+}
+
+.temple-name-overlay p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.temple-name-overlay a {
+  font-size: 17px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.temple-name-overlay a p {
+  margin: 0;
+  font-size: 17px;
+}
+
+.temple-name-overlay a .underline {
+  border-bottom: 2px solid white;
+  display: block;
+  width: 100px;
+  margin: 2px auto 0 25px;
+  border-radius: 45px;
+}
+
+.temple-details {
+  background: linear-gradient(180deg, #003d79 0%, #83c2ff 100%);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.85);
+  padding: 25px 25px;
+}
+
+.temple-location {
+  display: flex;
+  justify-content: space-between;
+}
+
+.temple-location p {
+  margin: 5px 0 0 0;
+  font-size: 15px;
+  align-self: center;
+}
+
+.temple-location p:nth-child(1) {
+  font-size: 20px;
+  align-self: center;
+}
+
+.temple-location img {
+  width: 25px;
+  height: 25px;
+}
+.temple-location button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.temple-services p {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.temple-services ul {
+  margin-top: 10px;
+}
+
+.temple-services ul li {
+  color: white;
+  margin-top: 5px;
+}
+
+.temple-history p:nth-child(1),
+.temple-schedule p:nth-child(1),
+.temple-closure p:nth-child(1) {
+  font-size: 20px;
+  font-weight: 600;
+  color: #002346;
+  margin-bottom: 0;
+}
+
+.temple-history p:nth-child(2),
+.temple-schedule p:nth-child(2) {
+  font-size: 15px;
+  margin-top: 5px;
+  padding-right: 45px;
+}
+
+.temple-closure p:nth-child(2) {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.temple-closure ul {
+  margin-top: 0;
+}
+
+.temple-closure ul li {
+  color: #002346;
+
+  font-weight: 600;
+  padding-right: 45px;
 }
