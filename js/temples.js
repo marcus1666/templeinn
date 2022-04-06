@@ -85,9 +85,16 @@ function addListeners() {
   const likeBtn = document.querySelectorAll(".like-button");
   likeBtn.forEach((element) => {
     element.addEventListener("click", (event) => {
-      event.target.src = "/images/fav.png";
+        if (event.target.classList.contains("unfav")) {
+          event.target.src = "/images/favo.png";
+          event.target.classList.remove("unfav");
+          event.target.classList.add("favo");
+        }else if (event.target.classList.contains("favo")){
+          event.target.src = "/images/fav.png";
+          event.target.classList.add("unfav");
+          event.target.classList.remove("favo");
+        }
 
-      console.log(event.target.src);
     });
   });
 }
