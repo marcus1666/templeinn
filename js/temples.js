@@ -85,6 +85,8 @@ function addListeners() {
   const likeBtn = document.querySelectorAll(".like-button");
   likeBtn.forEach((element) => {
     element.addEventListener("click", (event) => {
+      event.target.src = "/images/fav.png";
+
       console.log(event.target.src);
     });
   });
