@@ -90,7 +90,7 @@ function addListeners() {
           event.target.classList.remove("unfav");
           event.target.classList.add("favo");
         }else if (event.target.classList.contains("favo")){
-          event.target.src = "/templeinn/images/fav.png";
+          event.target.src = "/templeinn/images/unfav.png";
           event.target.classList.add("unfav");
           event.target.classList.remove("favo");
         }
