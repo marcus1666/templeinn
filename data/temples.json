@@ -17,7 +17,8 @@
       "schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment.",
       "closure": [
         {
-          "2022": [
+          "year": 2022,
+          "dates": [
             "Friday, 8 April 2022.",
             "Saturday, 20 August 2022",
             "Monday, 5 September 2022 - Monday, 2 January 2023"
@@ -42,7 +43,8 @@
       "history": "The announcement of the Accra Ghana Temple by President Gordon B. Hinckley came after he had challenged members to make a special effort to fellowship new converts to the Church. \"Put your arms around them, make them feel at home. Teach them the doctrines of the kingdom. Befriend them and help them in every way possible,\" he said. \"I make you a promise that if you will do that you will be blessed with a temple in your midst.",
       "schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment.",
       "closure": {
-        "2022": [
+        "year": 2022,
+        "dates": [
           "Monday, 21 February 2022 - Monday, 23 May 2022",
           "Saturday, 20 August 2022",
           "Tuesday, 13 September 2022 - Tuesday, 27 September 2022",
@@ -68,7 +70,8 @@
       "schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment.",
       "closure": [
         {
-          "2022": [
+          "year": 2022,
+          "dates": [
             "Saturday, 9 April 2022",
             "Friday, 15 April 2022",
             "Wednesday, 27 April 2022",
@@ -100,7 +103,8 @@
       "schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment.",
       "closure": [
         {
-          "2022": [
+          "year": 2022,
+          "dates": [
             "Monday, 11 July 2022 - Monday, 19 September 2022",
             "Saturday, 1 October 2022",
             "Saturday, 24 December 2022",
