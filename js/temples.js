@@ -5,7 +5,9 @@ fetch(templeURL)
   .then((jsObject) => {
 
     const temples = makeCard(jsObject.temples);
-    console.log(temples.join(""));
+    document.querySelector(".temple-cards-grid").innerHTML = temples.join("");
+
+    //call addevntlistener
   });
 
 function makeCard(tempList) {
@@ -27,6 +29,7 @@ function makeCard(tempList) {
                 </ul>`;
     });
 
+    //the template
     return `
         <div class="temple-card">
             <div class="temple-image">
@@ -74,5 +77,6 @@ function makeCard(tempList) {
           </div>`;
   });
 
+  //return temple list
   return templeHtml;
 }
