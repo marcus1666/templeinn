@@ -85,7 +85,7 @@ function addListeners() {
   const likeBtn = document.querySelectorAll(".like-button");
   likeBtn.forEach((element) => {
     element.addEventListener("click", (event) => {
-      console.log(event);
+      console.log(event.target.src);
     });
   });
 }
