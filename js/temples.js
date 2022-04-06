@@ -86,11 +86,11 @@ function addListeners() {
   likeBtn.forEach((element) => {
     element.addEventListener("click", (event) => {
         if (event.target.classList.contains("unfav")) {
-          event.target.src = "/images/favo.png";
+          event.target.src = "/templeinn/images/favo.png";
           event.target.classList.remove("unfav");
           event.target.classList.add("favo");
         }else if (event.target.classList.contains("favo")){
-          event.target.src = "/images/fav.png";
+          event.target.src = "/templeinn/images/fav.png";
           event.target.classList.add("unfav");
           event.target.classList.remove("favo");
         }
