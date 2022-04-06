@@ -4,6 +4,9 @@ fetch(templeURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
+
+    const temples = makeCard(jsObject.temples);
+    console.log(temples.join(""));
   });
 
 function makeCard(tempList) {
@@ -14,7 +17,16 @@ function makeCard(tempList) {
     });
 
     //temple closure
-    const closures = temple.closure.map((temple) => {});
+    const closures = temple.closure.map((element) => {
+      const closureDates = element.dates.map((date) => {
+        return `<li>date</li>`;
+      });
+
+      return `<p>${element.year}</p>
+                <ul>
+                  <li>${closureDates.join("")}</li>
+                </ul>`;
+    });
 
     return `
         <div class="temple-card">
@@ -57,12 +69,7 @@ function makeCard(tempList) {
                 </p>
               </div>
               <div class="temple-closure">
-                <p>Temple closure schedule</p>
-                <p>2022</p>
-                <ul>
-                  <li>Saturday, 20 August 2022</li>
-                  <li>Tue, 13 September 2022 - Tue, 27 September 2022</li>
-                </ul>
+                ${closures.join("")}
               </div>
             </div>
           </div>`;
