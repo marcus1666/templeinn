@@ -3,11 +3,11 @@ const templeURL = "/templeinn/data/temples.json";
 fetch(templeURL)
   .then((response) => response.json())
   .then((jsObject) => {
-
     const temples = makeCard(jsObject.temples);
     document.querySelector(".temple-cards-grid").innerHTML = temples.join("");
 
     //call addevntlistener
+    addListeners();
   });
 
 function makeCard(tempList) {
@@ -25,7 +25,7 @@ function makeCard(tempList) {
 
       return `<p>${element.year}</p>
                 <ul>
-                  <li>${closureDates.join("")}</li>
+                  ${closureDates.join("")}
                 </ul>`;
     });
 
@@ -48,7 +48,7 @@ function makeCard(tempList) {
                   <p>${temple.phone}</p>
                   <p>${temple.email}</p>
                 </div>
-                <button>
+                <button class="like-button">
                   <img src="./images/unfav.png" alt="favourite" />
                 </button>
               </div>
@@ -79,4 +79,13 @@ function makeCard(tempList) {
 
   //return temple list
   return templeHtml;
+}
+
+function addListeners() {
+  const likeBtn = document.querySelectorAll(".like-button");
+  likeBtn.forEach((element) => {
+    element.addEventListener("click", (event) => {
+      console.log(event);
+    });
+  });
 }
