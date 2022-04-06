@@ -3,10 +3,9 @@ const templeURL = "/templeinn/data/temples.json";
 fetch(templeURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
 
     const temples = makeCard(jsObject.temples);
-    console.log(temples.join(""));
+    console.log(temples);
   });
 
 function makeCard(tempList) {
@@ -17,7 +16,6 @@ function makeCard(tempList) {
     });
 
     //temple closure
-    console.log(temple.closure);
     const closures = temple.closure.map((element) => {
       const closureDates = element.dates.map((date) => {
         return `<li>date</li>`;
