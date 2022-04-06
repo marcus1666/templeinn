@@ -5,7 +5,7 @@ fetch(templeURL)
   .then((jsObject) => {
 
     const temples = makeCard(jsObject.temples);
-    console.log(temples);
+    console.log(temples.join(""));
   });
 
 function makeCard(tempList) {
@@ -73,4 +73,6 @@ function makeCard(tempList) {
             </div>
           </div>`;
   });
+
+  return templeHtml;
 }
