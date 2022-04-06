@@ -18,7 +18,7 @@ function makeCard(tempList) {
     //temple closure
     const closures = temple.closure.map((element) => {
       const closureDates = element.dates.map((date) => {
-        return `<li>date</li>`;
+        return `<li>${date}</li>`;
       });
 
       return `<p>${element.year}</p>
