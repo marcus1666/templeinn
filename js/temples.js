@@ -48,9 +48,9 @@ function makeCard(tempList) {
                   <p>${temple.phone}</p>
                   <p>${temple.email}</p>
                 </div>
-                <button class="like-button">
-                  <img src="./images/unfav.png" alt="favourite" />
-                </button>
+                
+                  <img src="./images/unfav.png" alt="favourite" class="like-button unfav"/>
+                
               </div>
               <div class="temple-services">
                 <p>Services</p>
